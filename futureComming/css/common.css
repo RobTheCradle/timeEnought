@@ -1,0 +1,25 @@
+
+@font-face {
+	font-family:lover;
+	src: url(../font/lover.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+body{
+	overflow: hidden;
+	position: relative;
+}
+
+.body{
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+}
