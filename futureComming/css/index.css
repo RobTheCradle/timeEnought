@@ -589,7 +589,7 @@
 	font-family:"黑体";
 	color: #FFF;
 	font-weight: bold;
-	font-size: x-small;
+	font-size: x-smrotate;
 	background-image: url(../img/ai_compressed.png);
 	width: 50px;
 	height: 60px;
@@ -1127,7 +1127,7 @@
 	font-size: x-large;
 }
 .btn-confirm,.btn-cancle{
-	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-touch-crotateout: none; /* iOS Safari */
 	
 	-webkit-user-select: none; /* Chrome/Safari/Opera */
 	

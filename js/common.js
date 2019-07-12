@@ -76,17 +76,31 @@ function resizeBodyTag(){
 		if(getViewWidth()/getViewHeight()>9/16){
 			setDivWidth($(".body")[0],getViewHeight()/16*9);
 			setDivHeight($(".body")[0],getViewHeight());
+			
+//			setDivWidth($("#canvas")[0],getViewHeight()/16*9);
+//			setDivHeight($("#canvas")[0],getViewHeight());
+			
 		}else if(getViewWidth()/getViewHeight()<9/16){
 			setDivWidth($(".body")[0],getViewWidth());
 			setDivHeight($(".body")[0],getViewWidth()/9*16);
+			
+//			setDivWidth($("#canvas")[0],getViewWidth());
+//			setDivHeight($("#canvas")[0],getViewWidth()/9*16);
+//			
 		}else{
 			setDivWidth($(".body")[0],getViewWidth());
 			setDivHeight($(".body")[0],getViewHeight());
+			
+//			setDivWidth($("#canvas")[0],getViewWidth());
+//			setDivHeight($("#canvas")[0],getViewHeight());
 		}
 		
 	}else{
 		setDivWidth($(".body")[0],getViewWidth());
 		setDivHeight($(".body")[0],getViewHeight());
+		
+//		setDivWidth($("#canvas")[0],getViewWidth());
+//		setDivHeight($("#canvas")[0],getViewHeight());
 	}
 		
 		setDivWidth($("body")[0],getViewWidth());
